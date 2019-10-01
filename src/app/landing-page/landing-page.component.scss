@@ -1,0 +1,70 @@
+.content{
+  display: flex;
+  margin: 32px auto;
+  padding: 0 16px;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100% !important;
+  height: 832px;
+  left: 0px;
+  top: -35px;
+  z-index: -1;
+   background:  #092a33;
+background:  #092a33 url('/assets/images/landing-bg.svg') !important;
+}
+.welcome-words{
+  position: absolute;
+  width: 530px;
+  height: 401px;
+  left: 67px;
+  top: 121px;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 72px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.landing-section{
+  font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.welcome-section{
+  display: flex;
+  flex-flow: column-reverse;
+  flex-grow: 200;
+}
+.angels-section{
+    margin: 120px 0 0 120px;
+    display: flex;
+    flex-grow: 100;
+}
+.welcome-subtitle
+{
+    height: 64px;
+    margin-top: 250px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 67px;
+}
+.btn-section{
+  display: flex;
+    position: absolute;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    margin-top: 50px;
+}
