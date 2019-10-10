@@ -1,0 +1,35 @@
+
+  .toolbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 19px 0 0 200px;
+    width: 100px;
+    padding-left: 45px;
+  }
+
+  .toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo:hover {
+    opacity: 0.8;
+  }
+  .nav-pills{
+    font-size: .85rem;
+    line-height: 22px;
+    margin-right: 40px;
+    font-family: montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #FFFEFE;
+  }

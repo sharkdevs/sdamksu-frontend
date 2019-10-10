@@ -1,0 +1,12 @@
+
+
+<ng-container *ngIf="matIconName; then iconButton; else normalButton"></ng-container>
+<ng-template #iconButton>
+  <button [class]="styleType" mat-button (click)="onClick($event)" class="warning">
+    <span>{{btnName}}</span>
+    <mat-icon class="mat-18">{{matIconName}}</mat-icon>
+  </button>
+</ng-template>
+<ng-template #normalButton>
+  <button [class]="styleType" mat-button (click)="onClick($event)">{{btnName}}</button>
+</ng-template>
