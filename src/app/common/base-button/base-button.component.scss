@@ -6,7 +6,11 @@ button{
   width: 150px;
   font-weight: bold;
 }
-.primary{
+.primary, .white:hover{
   color: #ffffff;
   background: #2996f0;
+}
+.white,.primary:hover{
+  color: #5d5d5d;
+  background: #fff;
 }
