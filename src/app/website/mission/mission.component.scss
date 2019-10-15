@@ -1,0 +1,54 @@
+.sect-container{
+  background-color: #F5F2F2;
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  padding: 120px 0;
+  .sect-cols{
+    display: flex;
+    flex-direction: column;
+    }
+  .image{
+      width: 450px;
+    }
+  .text-sect{
+    margin: 0 20px 0 0;
+
+    p{
+      margin: 0 0px 20px 0;
+    }
+  }
+}
+
+.sub-heading{
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.bold-title{
+ 
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 66px;
+  line-height: 94.4%;
+  text-align: left;
+  font-family: sans-serif;
+}
+.text-context{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 156.4%;
+  margin-top: 20px;
+  color: #5a5a5a;
+}
+.card{
+  width: 280px;
+  height: 220px;
+  background: #072B33;
+  border-radius: 5px;
+}
+.btn-find-out{
+  margin-top: 30px;
+}
