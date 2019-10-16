@@ -48,7 +48,14 @@
   height: 220px;
   background: #072B33;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  color: #F5F2F2;
+  text-align: center;
+
+  
 }
-.btn-find-out{
-  margin-top: 30px;
+.rsrc-component{
+  display: flex;
+  width: 100%;
 }

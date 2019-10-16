@@ -1,0 +1,29 @@
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-right{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+
+  p{
+    font-weight: 100;
+    font-size: 12px;
+  }
+
+}
+
+.btn-find-out{
+  margin-top: 30px;
+}
+
+.image-container{
+  width: 500px;
+}
+.card-content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
