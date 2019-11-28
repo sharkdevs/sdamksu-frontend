@@ -22,9 +22,18 @@
   </div>
   <div class="sect-cols">
     <div class="card">
-
+      <app-devotional-resource
+        [coverImage]="lessonCoverImage"
+        class="rsrc-component"
+        [description]="'Get a copy of a daily devotional read all over the world'"
+      ></app-devotional-resource>
     </div>
-    <div class="card"></div>
+    <div class="card">
+      <app-devotional-resource      class="rsrc-component"
+        [coverImage]="gcCoverImage"
+        [description]="'Understand the Great Controversy between God and Satan and the Hope in christ.'">
+      </app-devotional-resource>
+    </div>
   </div>
 </div>
 

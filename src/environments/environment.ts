@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  api_url_quarterly: 'https://sabbath-school-stage.adventech.io/api/v1/en/quarterlies/index.json'
 };
 
 /*
