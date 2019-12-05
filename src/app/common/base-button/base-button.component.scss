@@ -3,7 +3,7 @@ button{
   cursor: pointer;
   border-radius: 20px;
   border: none;
-  width: 150px;
+  min-width: 150px;
   font-weight: bold;
 }
 .primary, .white:hover{
