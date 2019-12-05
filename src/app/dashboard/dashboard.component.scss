@@ -1,0 +1,32 @@
+.sect-login-left{
+    background: url('../../assets/images/landing-bg.svg');
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: center;
+}
+.sect-login-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-section{
+    height: 80px;
+    display: flex;
+    align-self: flex-start;
+
+    img{
+        width: 100px;
+    }
+}
+.admin-landing-section{
+    display: flex;
+    flex-direction: row;
+}
+.login-input{
+    width: 100%;
+}

@@ -1,10 +1,39 @@
-<div class="row">
-    <div class="container">
-        <div class="col-6 col-left">
-            
+
+<div class="content" role="main">
+    <section class="admin-landing-section">
+        <!-- START-LEFT-SECTION -->
+        <div class="sect-login-left">
+          <div class="logo-section">
+                <img src="../../assets/images/logo.svg" alt="logo">
+          </div>
+          
         </div>
-        <div class="col-6 col-right">
-            
+      <!-- END OF SECT-LEFT -->
+
+      <!-- START OF SECT-RIGHT -->
+        <div class="sect-login-right">
+            <h1 class="welcome-words">
+                    Sign In
+            </h1> 
+            <form action="">
+                <mat-form-field class="login-input">
+                    <input matInput placeholder="Email">
+                </mat-form-field>
+                <mat-form-field class="login-input">
+                        <input matInput placeholder="Password">
+                </mat-form-field>
+                
+            </form> 
+            <app-base-button 
+                    [styleType]="'primary'" 
+                    [btnName]="'LOGIN'"
+        ></app-base-button>    
         </div>
-    </div>
-</div>
+      <!-----END OF SECT-RIGHT------>
+
+
+
+    </section>
+  
+  </div>
+  
