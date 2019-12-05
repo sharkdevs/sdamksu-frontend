@@ -10,11 +10,13 @@ import { DevotionalResourceComponent } from './devotional-resource/devotional-re
 import { HttpClientModule } from '@angular/common/http';
 import { DevotionalService } from './services/devotional.service';
 import { SharedModule } from '../shared/shared.module';
+import { EvangelismComponent } from './evangelism/evangelism.component';
 
 
 @NgModule({
   declarations: [
     WebsiteComponent,
+    EvangelismComponent,
     LandingPageComponent,
     NavBarComponent,
     MissionComponent,
