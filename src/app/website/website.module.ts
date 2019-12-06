@@ -12,6 +12,7 @@ import { DevotionalService } from './services/devotional.service';
 import { SharedModule } from '../shared/shared.module';
 import { EvangelismComponent } from './evangelism/evangelism.component';
 import { FindOutComponent } from './find-out/find-out.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FindOutComponent } from './find-out/find-out.component';
     EvangelismComponent,
     FindOutComponent,
     LandingPageComponent,
-    NavBarComponent,
+    NavBarComponent,    
+    FooterComponent,
     MissionComponent,
     DevotionalResourceComponent,
   ],
