@@ -13,5 +13,5 @@ jobs:
           key: sdamksu-frontend-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - "node_modules"
-      - run: xvfb-run -a npm run test -- --no-watch --no-progress --browsers=ChromeNoSandbox
+      # - run: xvfb-run -a npm run test -- --no-watch --no-progress --browsers=ChromeNoSandbox
       # - run: xvfb-run -a npm run e2e -- --protractor-config=protractor-ci.conf.js
